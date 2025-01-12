@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#cart-interface {
+    display: none;
+}
+.product-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.product-card img{
+    width: 420px;
+    height: 250px;
+}
+
+#promo-code-section {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#summary-section {
+    font-size: 1.1rem;
+    margin-top: 20px;
+}

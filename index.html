@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="bg-primary text-white text-center p-3">
+        <h1>Shopping Cart</h1>
+        <span id="cart-count" class="badge bg-secondary">0</span>
+    </header>
+
+    <main class="container my-4">
+        <div id="product-list" class="row g-3">
+            <!-- Product cards will be dynamically loaded here -->
+        </div>
+
+        <div id="cart-interface" class="mt-5">
+            <h3>Cart</h3>
+            <div id="cart-items" class="list-group">
+                <!-- Cart items dynamically rendered -->
+            </div>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+                <strong>Total: $<span id="cart-total">0.00</span></strong>
+                <button id="clear-cart" class="btn btn-danger">Clear Cart</button>
+            </div>
+        </div>
+
+        <!-- <div id="promo-code-section" class="mt-4">
+            <h3>Apply Promo Code</h3>
+            <div class="d-flex">
+                <input id="promo-code" type="text" class="form-control me-2" placeholder="Enter promo code">
+                <button id="apply-promo" class="btn btn-primary">Apply</button>
+            </div>
+            <p id="promo-message" class="mt-2 text-danger"></p>
+        </div>
+        
+        <div id="summary-section" class="mt-4">
+            <h4>Order Summary</h4>
+            <p>Subtotal: $<span id="subtotal">0.00</span></p>
+            <p>Discount: -$<span id="discount">0.00</span></p>
+            <p><strong>Total: $<span id="final-total">0.00</span></strong></p>
+        </div> -->
+
+        <!--  -->
+        <div class="checkout-section">
+            <h3>Apply Promo Code</h3>
+            <input type="text" id="promo-code" placeholder="Enter promo code">
+            <button id="apply-promo">Apply</button>
+            <p id="promo-message"></p>
+          </div>
+          <div class="cart-summary">
+            <p>Subtotal: $<span id="subtotal">1799.97</span></p>
+            <p>Discount: $<span id="discount">0.00</span></p>
+            <p>Total: $<span id="total">1799.97</span></p>
+          </div>
+          
+        
+          
+    </main>
+
+    <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/ui.js"></script>
+</body>
+</html>

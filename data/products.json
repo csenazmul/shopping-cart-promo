@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Laptop",
+        "description": "High-performance laptop.",
+        "price": 999.99,
+        "image": "assets/images/laptop.webp"
+    },
+    {
+        "id": 2,
+        "name": "Smartphone",
+        "description": "Latest smartphone with great features.",
+        "price": 599.99,
+        "image": "assets/images/smartphone.png"
+    },
+    {
+        "id": 3,
+        "name": "Headphones",
+        "description": "Noise-cancelling headphones.",
+        "price": 199.99,
+        "image": "assets/images/headphones.jpg"
+    }
+]
